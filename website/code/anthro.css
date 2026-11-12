@@ -234,7 +234,7 @@
 .aa .pcard > a:hover .tile, .aa .mini:hover .tile { box-shadow: 0 0 0 2px var(--gold); }
 .aa .mini .chip { align-self: flex-start; }
 .aa .tile { transition: box-shadow 0.15s ease; }
-.aa .booking-frame { border-radius: var(--radius); overflow: hidden; background: var(--band-deep); padding: 8px 4px; }
+.aa .booking-frame { background: transparent; }
 .aa .meta { color: var(--muted); font-size: 0.92rem; }
 .aa .funder-line { margin-top: 24px; color: var(--muted); }
 .aa .funder-line a { font-weight: 600; }
@@ -277,6 +277,9 @@
 .aa a.own-book { text-decoration: none; transition: transform 0.2s ease; }
 .aa a.own-book:hover, .aa a.own-book:focus-visible { transform: translateY(-4px); text-decoration: none; }
 .aa .reading-row .btn-row { align-items: center; }
+.aa .booking-band .wrap { padding-block: 0 clamp(48px, 7vw, 88px); }
+.aa .booking-band .meta { color: var(--band-muted); }
+.aa .booking-band .meta .email { color: var(--band-text) !important; }
 /* Squarespace layout: only on pages that contain the new design (.aa) */
 body:has(.aa) #header, body:has(.aa) #footer-sections, body:has(.aa) .header-announcement-bar-wrapper { display: none !important; }
 .page-section:has(.aa) { padding: 0 !important; min-height: 0 !important; }
