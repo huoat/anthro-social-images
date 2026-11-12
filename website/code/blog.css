@@ -1,0 +1,19 @@
+/* ===== BLOG 2026: brings the blog and its posts in line with the new pages ===== */
+.collection-6a2ae067e47a464e64f7b1da { background: #ffffff !important; }
+.collection-6a2ae067e47a464e64f7b1da #header, .collection-6a2ae067e47a464e64f7b1da #header .header-announcement-bar-wrapper { background: #172647 !important; }
+.collection-6a2ae067e47a464e64f7b1da #header .header-inner { padding-top: 14px !important; padding-bottom: 14px !important; }
+.collection-6a2ae067e47a464e64f7b1da .header-title-logo img { max-height: 40px !important; width: auto !important; }
+.collection-6a2ae067e47a464e64f7b1da .header-nav-item a, .collection-6a2ae067e47a464e64f7b1da .header-menu-nav-item a { font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif !important; font-size: 15px !important; font-weight: 500 !important; color: #eff0f4 !important; letter-spacing: normal !important; }
+.collection-6a2ae067e47a464e64f7b1da .header-nav-item--active a { background-image: none !important; box-shadow: inset 0 -2px 0 #dfcc8c; }
+.collection-6a2ae067e47a464e64f7b1da .header-nav-list .header-nav-item:last-child a { background: #eadeb4 !important; color: #172647 !important; border-radius: 999px; padding: 10px 20px !important; font-weight: 600 !important; }
+.collection-6a2ae067e47a464e64f7b1da .page-section, .collection-6a2ae067e47a464e64f7b1da .page-section .section-background, .collection-6a2ae067e47a464e64f7b1da .sqs-section-background { background: #ffffff !important; }
+.collection-6a2ae067e47a464e64f7b1da .page-section { color: #172647 !important; }
+.collection-6a2ae067e47a464e64f7b1da .blog-title, .collection-6a2ae067e47a464e64f7b1da .blog-title a, .collection-6a2ae067e47a464e64f7b1da .blog-item-title h1, .collection-6a2ae067e47a464e64f7b1da .blog-item-wrapper h1, .collection-6a2ae067e47a464e64f7b1da .blog-item-wrapper h2, .collection-6a2ae067e47a464e64f7b1da .blog-item-wrapper h3 { font-family: "Playfair Display", Lora, Georgia, serif !important; font-weight: 700 !important; color: #172647 !important; letter-spacing: -0.01em !important; }
+.collection-6a2ae067e47a464e64f7b1da .blog-excerpt, .collection-6a2ae067e47a464e64f7b1da .blog-excerpt p, .collection-6a2ae067e47a464e64f7b1da .blog-item-wrapper p, .collection-6a2ae067e47a464e64f7b1da .blog-item-wrapper li { font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif !important; color: #4a5878 !important; line-height: 1.65 !important; }
+.collection-6a2ae067e47a464e64f7b1da .blog-item-wrapper p, .collection-6a2ae067e47a464e64f7b1da .blog-item-wrapper li { color: #172647 !important; font-size: 1.05rem !important; }
+.collection-6a2ae067e47a464e64f7b1da .blog-meta-section, .collection-6a2ae067e47a464e64f7b1da .blog-meta-section *, .collection-6a2ae067e47a464e64f7b1da .blog-item-meta-wrapper, .collection-6a2ae067e47a464e64f7b1da .blog-item-meta-wrapper * { font-family: Inter, system-ui, sans-serif !important; font-size: 12px !important; font-weight: 600 !important; letter-spacing: 0.14em !important; text-transform: uppercase !important; color: #4a5878 !important; }
+.collection-6a2ae067e47a464e64f7b1da .blog-more-link, .collection-6a2ae067e47a464e64f7b1da .blog-item-wrapper a { font-family: Inter, system-ui, sans-serif !important; color: #2f5095 !important; font-weight: 600 !important; }
+.collection-6a2ae067e47a464e64f7b1da .blog-masonry .image-wrapper, .collection-6a2ae067e47a464e64f7b1da .blog-masonry img, .collection-6a2ae067e47a464e64f7b1da .blog-item-wrapper img { border-radius: 10px; }
+.collection-6a2ae067e47a464e64f7b1da #footer-sections, .collection-6a2ae067e47a464e64f7b1da #footer-sections .page-section, .collection-6a2ae067e47a464e64f7b1da #footer-sections .section-background { background: #172647 !important; color: #c6cee2 !important; }
+.collection-6a2ae067e47a464e64f7b1da #footer-sections * { font-family: Inter, system-ui, sans-serif !important; color: #c6cee2 !important; }
+/* ===== END BLOG 2026 ===== */
