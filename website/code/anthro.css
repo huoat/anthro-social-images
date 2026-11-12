@@ -72,7 +72,7 @@
 .aa .index-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 14px; padding-block: 14px; border-top: 1px solid rgba(239, 240, 244, 0.14); }
 .aa .index-row:first-of-type { margin-top: 12px; }
 .aa .index-row .problem { color: var(--band-text); font-weight: 500; }
-.aa .index-row .built { grid-column: 1 / -1; color: var(--band-muted); font-size: 0.9rem; }
+.aa .index-row .built { grid-column-start: 1; grid-column-end: -1; color: var(--band-muted); font-size: 0.9rem; }
 .aa .index-row .built b { color: var(--gold); font-weight: 600; }
 .aa .chip { display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px 3px 8px; border-radius: 999px; background: var(--chip); color: var(--text); font: 600 0.76rem/1.5 var(--body); letter-spacing: 0.02em; white-space: nowrap; }
 .aa .chip svg { width: 13px; height: 13px; flex: none; }
@@ -150,9 +150,9 @@
 .aa .contact-line { font-size: var(--step-1); font-weight: 600; user-select: all; }
 .aa .assets { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
 .aa .asset { display: flex; flex-direction: column; gap: 8px; font-size: 0.9rem; min-width: 0; }
-.aa .asset .thumb { aspect-ratio: 4 / 3; border-radius: 8px; background: var(--band-deep); display: grid; place-items: center; overflow: hidden; }
-.aa .asset .thumb img { width: 100%; height: 100%; object-fit: cover; }
-.aa .asset .thumb.logo-thumb img { width: 78%; height: auto; object-fit: contain; }
+.aa .asset .thumb { position: relative; aspect-ratio: 4 / 3; border-radius: 8px; background: var(--band-deep); display: grid; place-items: center; overflow: hidden; }
+.aa .asset .thumb img { position: absolute; inset: 0; width: 100%; height: 100% !important; object-fit: cover; object-position: center 22%; }
+.aa .asset .thumb.logo-thumb img { position: static; width: 78%; height: auto !important; object-fit: contain; }
 .aa .asset .thumb.light { background: #ffffff; border: 1px solid var(--line); }
 @media (max-width: 760px) { .aa .assets { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .aa .cta .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px; padding-block: clamp(48px, 7vw, 80px); }
@@ -168,10 +168,10 @@
 .aa .site-footer a:hover { text-decoration: underline; }
 .aa .site-footer .logo img { height: 44px; margin-bottom: 14px; }
 .aa .site-footer .signoff { margin-top: 10px; font-size: 0.95rem; }
-.aa .site-footer .legal { grid-column: 1 / -1; border-top: 1px solid rgba(239, 240, 244, 0.12); padding-top: 18px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; }
+.aa .site-footer .legal { grid-column-start: 1; grid-column-end: -1; border-top: 1px solid rgba(239, 240, 244, 0.12); padding-top: 18px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; }
 .aa .email { user-select: all; color: var(--band-text); }
 @media (max-width: 860px) { .aa .site-footer .wrap { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-.aa .site-footer .brand-col { grid-column: 1 / -1; } }
+.aa .site-footer .brand-col { grid-column-start: 1; grid-column-end: -1; } }
 @media (max-width: 480px) { .aa .site-footer .wrap { grid-template-columns: 1fr; } }
 .aa .hero-photo { margin: 0; display: flex; flex-direction: column; gap: 10px; }
 .aa .hero-photo img { width: 100%; aspect-ratio: 1 / 1; max-height: 520px; object-fit: cover; object-position: center 22%; border-radius: var(--radius); border: 1px solid rgba(223, 204, 140, 0.45); }
@@ -234,7 +234,7 @@
 .aa .pcard > a:hover .tile, .aa .mini:hover .tile { box-shadow: 0 0 0 2px var(--gold); }
 .aa .mini .chip { align-self: flex-start; }
 .aa .tile { transition: box-shadow 0.15s ease; }
-.aa .booking-frame { border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: var(--card); }
+.aa .booking-frame { border-radius: var(--radius); overflow: hidden; background: var(--band-deep); padding: 8px 4px; }
 .aa .meta { color: var(--muted); font-size: 0.92rem; }
 /* Squarespace layout: only on pages that contain the new design (.aa) */
 body:has(.aa) #header, body:has(.aa) #footer-sections, body:has(.aa) .header-announcement-bar-wrapper { display: none !important; }
