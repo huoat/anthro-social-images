@@ -273,6 +273,9 @@
 .aa .readers { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 48px 56px; }
 .aa .reader h2 { font-size: var(--step-2); }
 .aa .reader .label { font: 600 0.72rem/1.2 var(--body); letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
+.aa a.own-book { text-decoration: none; transition: transform 0.2s ease; }
+.aa a.own-book:hover, .aa a.own-book:focus-visible { transform: translateY(-4px); text-decoration: none; }
+.aa .reading-row .btn-row { align-items: center; }
 /* Squarespace layout: only on pages that contain the new design (.aa) */
 body:has(.aa) #header, body:has(.aa) #footer-sections, body:has(.aa) .header-announcement-bar-wrapper { display: none !important; }
 .page-section:has(.aa) { padding: 0 !important; min-height: 0 !important; }
