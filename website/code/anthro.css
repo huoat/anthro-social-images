@@ -277,6 +277,7 @@
 .aa a.own-book { text-decoration: none; transition: transform 0.2s ease; }
 .aa a.own-book:hover, .aa a.own-book:focus-visible { transform: translateY(-4px); text-decoration: none; }
 .aa .reading-row .btn-row { align-items: center; }
+.aa .booking-band { margin-top: -1px; }
 .aa .booking-band .wrap { padding-block: 0 clamp(48px, 7vw, 88px); }
 .aa .booking-band .meta { color: var(--band-muted); }
 .aa .booking-band .meta .email { color: var(--band-text) !important; }
