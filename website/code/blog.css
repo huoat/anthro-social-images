@@ -2,7 +2,7 @@
 .collection-6a2ae067e47a464e64f7b1da { background: #ffffff !important; }
 .collection-6a2ae067e47a464e64f7b1da #header, .collection-6a2ae067e47a464e64f7b1da #header .header-announcement-bar-wrapper { background: #172647 !important; }
 .collection-6a2ae067e47a464e64f7b1da #header .header-inner { padding-top: 14px !important; padding-bottom: 14px !important; }
-.collection-6a2ae067e47a464e64f7b1da .header-title-logo img { max-height: 40px !important; width: auto !important; }
+.collection-6a2ae067e47a464e64f7b1da .header-title-logo img { content: url("https://raw.githubusercontent.com/huoat/anthro-social-images/4120673/website/logo-on-dark.png"); max-height: 40px !important; width: auto !important; }
 .collection-6a2ae067e47a464e64f7b1da .header-nav-item a, .collection-6a2ae067e47a464e64f7b1da .header-menu-nav-item a { font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif !important; font-size: 15px !important; font-weight: 500 !important; color: #eff0f4 !important; letter-spacing: normal !important; }
 .collection-6a2ae067e47a464e64f7b1da .header-nav-item--active a { background-image: none !important; box-shadow: inset 0 -2px 0 #dfcc8c; }
 .collection-6a2ae067e47a464e64f7b1da .header-nav-list .header-nav-item:last-child a { background: #eadeb4 !important; color: #172647 !important; border-radius: 999px; padding: 10px 20px !important; font-weight: 600 !important; }
