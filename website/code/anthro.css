@@ -270,6 +270,9 @@
 @media (max-width: 560px) { .aa .shelf .cover { padding: 12px 8px 10px 16px; }
 .aa .shelf .cover .t { font-size: 0.82rem; }
 .aa .shelf .cover .a { font-size: 0.56rem; letter-spacing: 0.08em; } }
+.aa .readers { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 48px 56px; }
+.aa .reader h2 { font-size: var(--step-2); }
+.aa .reader .label { font: 600 0.72rem/1.2 var(--body); letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
 /* Squarespace layout: only on pages that contain the new design (.aa) */
 body:has(.aa) #header, body:has(.aa) #footer-sections, body:has(.aa) .header-announcement-bar-wrapper { display: none !important; }
 .page-section:has(.aa) { padding: 0 !important; min-height: 0 !important; }
