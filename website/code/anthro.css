@@ -266,10 +266,11 @@
 @media (prefers-reduced-motion: reduce) { .aa .spine { transition: none; } }
 .aa .reading-hero img { aspect-ratio: 4 / 3; max-height: 420px; object-fit: cover; object-position: center 45%; }
 .aa .own-book { max-width: 170px; }
-.aa .cover .t { overflow-wrap: anywhere; hyphens: auto; }
-@media (max-width: 560px) { .aa .shelf .cover { padding: 12px 8px 10px 16px; }
-.aa .shelf .cover .t { font-size: 0.82rem; }
-.aa .shelf .cover .a { font-size: 0.56rem; letter-spacing: 0.08em; } }
+.aa .cover .t { hyphens: manual; overflow-wrap: normal; word-break: normal; }
+@media (max-width: 560px) { .aa .book { grid-template-columns: minmax(0, 132px) minmax(0, 1fr); }
+.aa .book .cover { padding: 12px 7px 10px 15px; }
+.aa .book .cover .t { font-size: 0.76rem; }
+.aa .book .cover .a { font-size: 0.56rem; letter-spacing: 0.08em; } }
 .aa .readers { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 48px 56px; }
 .aa .reader h2 { font-size: var(--step-2); }
 .aa .reader .label { font: 600 0.72rem/1.2 var(--body); letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
