@@ -234,6 +234,8 @@
 .aa .pcard > a:hover .tile, .aa .mini:hover .tile { box-shadow: 0 0 0 2px var(--gold); }
 .aa .mini .chip { align-self: flex-start; }
 .aa .tile { transition: box-shadow 0.15s ease; }
+.aa .booking-frame { border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: var(--card); }
+.aa .meta { color: var(--muted); font-size: 0.92rem; }
 /* Squarespace layout: only on pages that contain the new design (.aa) */
 body:has(.aa) #header, body:has(.aa) #footer-sections, body:has(.aa) .header-announcement-bar-wrapper { display: none !important; }
 .page-section:has(.aa) { padding: 0 !important; min-height: 0 !important; }
