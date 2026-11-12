@@ -3,6 +3,7 @@
 .aa a { font-family: inherit; }
 .aa img { height: auto; }
 .aa .site-header { top: 0; }
+.aa h1, .aa h2, .aa h3, .aa h4 { color: inherit !important; }
 .aa { --navy: #233b6e; --navy-2: #2f5095; --ink: #172647; --gold: #dfcc8c; --cta: #eadeb4; --mist: #eff0f4;
   --bg: #ffffff; --surface: #eff0f4; --text: #172647; --muted: #4a5878; --line: #d6dbe7;
   --band: #233b6e; --band-deep: #172647; --band-text: #eff0f4; --band-muted: #c6cee2; --link: #2f5095;
