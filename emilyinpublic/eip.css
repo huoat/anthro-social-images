@@ -1,0 +1,11 @@
+/* ===== EIP 2026: emilyinpublic.com fixes ===== */
+/* Hero name: remove the text highlight boxes behind each line */
+.sqs-html-content h1 mark { background: transparent !important; padding: 0 !important; margin: 0 !important; }
+/* Full-width code-block sections (.eip-full) */
+.page-section:has(.eip-full) { padding: 0 !important; min-height: 0 !important; }
+.page-section:has(.eip-full) .content-wrapper { padding: 0 !important; max-width: none !important; width: 100% !important; }
+.page-section:has(.eip-full) .content { width: 100% !important; }
+.page-section:has(.eip-full) .fluid-engine { display: block !important; }
+.fe-block:has(.eip-full) { width: 100% !important; height: auto !important; }
+.sqs-block-code:has(.eip-full), .sqs-block-code:has(.eip-full) .sqs-block-content { padding: 0 !important; }
+/* ===== END EIP 2026 ===== */
